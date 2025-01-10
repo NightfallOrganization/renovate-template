@@ -27,6 +27,7 @@
       "enabled": false
     }
   ],
+  "automergeType": "branch",
   "packageRules": [
     {
       "matchManagers": [
