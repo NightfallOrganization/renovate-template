@@ -6,9 +6,9 @@
   "hostRules": [
     {
       "matchHost": "https://nexus.darkcube.eu/repository/darkcube-group/",
-      "username": "powerless",
       "hostType": "maven",
-      "password": "{{ secrets.MAVEN_DARKCUBE_GROUP }}"
+      "username": "{{ secrets.MAVEN_DARKCUBE_GROUP_USERNAME }}",
+      "password": "{{ secrets.MAVEN_DARKCUBE_GROUP_PASSWORD }}"
     },
     {
       "matchHost": "https://repo1.maven.org/maven2/",
