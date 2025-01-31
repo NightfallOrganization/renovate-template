@@ -32,6 +32,9 @@
     "ORG_GRADLE_PROJECT_DarkCubePassword": "{{ secrets.MAVEN_DARKCUBE_GROUP_PASSWORD }}"
   },
   "automergeType": "branch",
+  "ignoreDeps": [
+    "net.minestom:minestom-snapshots"
+  ],
   "packageRules": [
     {
       "matchManagers": [
