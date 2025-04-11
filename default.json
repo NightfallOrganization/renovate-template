@@ -17,14 +17,6 @@
     {
       "matchHost": "docker.io",
       "enabled": false
-    },
-    {
-      "matchHost": "api.github.com",
-      "enabled": false
-    },
-    {
-      "matchHost": "github.com",
-      "enabled": false
     }
   ],
   "env": {
